@@ -67,7 +67,6 @@ header nav ul li a:hover {
 
 .hero {
     background-image: url(https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80);
-    background-size: cover;
     display: flex;
     justify-content: right;
     flex-wrap: wrap;
@@ -75,6 +74,7 @@ header nav ul li a:hover {
     background-attachment: fixed;
     background-position: 80%;
     height: 200px;
+    width: 100%;
 }
 
 .hero-cta {
@@ -86,4 +86,44 @@ header nav ul li a:hover {
     font-size: large;
 }
 
-    /* HERO IMAGE END  */
+/* HERO IMAGE END  */
+
+/* ABOUT ME SECTION START */
+
+.info-block {
+    margin: 30px auto;
+    padding-bottom: 0;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info { 
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.info-block h2 {
+    text-align: right;
+    color: #8e8d8a;
+    font-size: 30px;
+}
+
+.info-text {
+    text-align: left;
+    justify-content: center;
+    flex: 1;
+}
+
+.info-text p {
+    color: #8e8d8a;
+}
+
+.info-title {
+    border-right: solid #8e8d8a;
+    padding-right: 15px;
+    margin-right: 25px;
+}
